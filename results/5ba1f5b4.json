@@ -1,5 +1,5 @@
 {
-    "remarks": "03+🌥🇵🇱+@Surfboardv2ray",
+    "remarks": "kingofilter",
     "log": {
         "access": "",
         "error": "",
@@ -8,38 +8,34 @@
     "outbounds": [
         {
             "tag": "proxy",
-            "protocol": "vmess",
+            "protocol": "trojan",
             "settings": {
-                "vnext": [
+                "servers": [
                     {
-                        "address": "crackthecode.ftp.sh",
+                        "address": "198.41.220.10",
+                        "method": "chacha20",
+                        "ota": false,
+                        "password": "2cba4104747d49d18319e5ade1b93ab5",
                         "port": 443,
-                        "users": [
-                            {
-                                "id": "5f726fe3-d82e-4da5-a711-8af0cbb2b682",
-                                "alterId": 0,
-                                "email": "t@t.tt",
-                                "security": "auto"
-                            }
-                        ]
+                        "level": 1,
+                        "flow": ""
                     }
                 ]
             },
             "streamSettings": {
                 "network": "ws",
                 "wsSettings": {
-                    "path": "/b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-ava.top/azumase.ren",
+                    "path": "",
                     "headers": {
-                        "Host": "vcp.cushingreflex3.WORkeRS.deV"
+                        "Host": "jobscareerforstudent.com"
                     }
                 },
                 "security": "tls",
                 "tlsSettings": {
                     "allowInsecure": true,
-                    "serverName": "vcp.cushingreflex3.WORkeRS.deV",
+                    "serverName": "jobscareerforstudent.com",
                     "alpn": [],
-                    "show": false,
-                    "fingerprint": "chrome"
+                    "show": false
                 },
                 "sockopt": {
                     "dialerProxy": "fragment",
