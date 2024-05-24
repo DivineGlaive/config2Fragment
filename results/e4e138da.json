@@ -1,5 +1,5 @@
 {
-    "remarks": "01%2BEdgetunnel%F0%9F%94%AE%40Surfboardv2ray",
+    "remarks": "08+🌥🇫🇷+@Surfboardv2ray",
     "log": {
         "access": "",
         "error": "",
@@ -8,7 +8,7 @@
     "outbounds": [
         {
             "tag": "proxy",
-            "protocol": "vless",
+            "protocol": "vmess",
             "settings": {
                 "vnext": [
                     {
@@ -16,12 +16,10 @@
                         "port": 443,
                         "users": [
                             {
-                                "id": "5ab76485-f6b9-4340-8be2-260bc8510cb0",
+                                "id": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
                                 "alterId": 0,
                                 "email": "t@t.tt",
-                                "security": "auto",
-                                "encryption": "none",
-                                "flow": ""
+                                "security": "auto"
                             }
                         ]
                     }
@@ -30,17 +28,18 @@
             "streamSettings": {
                 "network": "ws",
                 "wsSettings": {
-                    "path": "",
+                    "path": "/glweidf.sbs/linkws",
                     "headers": {
-                        "Host": "ecp.cushingreflex1.workers.dev"
+                        "Host": "vfarid.surfboardv2ray8830.WOrkErS.DEv"
                     }
                 },
                 "security": "tls",
                 "tlsSettings": {
                     "allowInsecure": true,
-                    "serverName": "ecp.cushingreflex1.workers.dev",
+                    "serverName": "vfarid.surfboardv2ray8830.WOrkErS.DEv",
                     "alpn": [],
-                    "show": false
+                    "show": false,
+                    "fingerprint": "chrome"
                 },
                 "sockopt": {
                     "dialerProxy": "fragment",
