@@ -1,5 +1,5 @@
 {
-    "remarks": "⚡+@Surfboardv2ray",
+    "remarks": "t.me/v2Line | (1475) DE",
     "log": {
         "access": "",
         "error": "",
@@ -12,11 +12,11 @@
             "settings": {
                 "vnext": [
                     {
-                        "address": "188.114.97.3",
+                        "address": "172.67.207.26",
                         "port": 443,
                         "users": [
                             {
-                                "id": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
+                                "id": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
                                 "alterId": 0,
                                 "email": "t@t.tt",
                                 "security": "auto"
@@ -30,13 +30,13 @@
                 "wsSettings": {
                     "path": "/linkws",
                     "headers": {
-                        "Host": "linde06.indiavideo.sbs"
+                        "Host": "glweidf.sbs"
                     }
                 },
                 "security": "tls",
                 "tlsSettings": {
                     "allowInsecure": true,
-                    "serverName": "linde06.indiavideo.sbs",
+                    "serverName": "glweidf.sbs",
                     "alpn": [],
                     "show": false,
                     "fingerprint": ""
