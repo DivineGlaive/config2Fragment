@@ -1,5 +1,5 @@
 {
-    "remarks": "%E2%9A%A1%EF%B8%8F%2BWS9%2B-%40ThunderV2ray",
+    "remarks": "⚡+@Surfboardv2ray",
     "log": {
         "access": "",
         "error": "",
@@ -8,20 +8,18 @@
     "outbounds": [
         {
             "tag": "proxy",
-            "protocol": "vless",
+            "protocol": "vmess",
             "settings": {
                 "vnext": [
                     {
-                        "address": "185.146.173.169",
-                        "port": 8880,
+                        "address": "188.114.97.3",
+                        "port": 443,
                         "users": [
                             {
-                                "id": "5ff53054-fa0d-4e6d-8ba4-f66069d0f8b5",
+                                "id": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
                                 "alterId": 0,
                                 "email": "t@t.tt",
-                                "security": "auto",
-                                "encryption": "none",
-                                "flow": ""
+                                "security": "auto"
                             }
                         ]
                     }
@@ -30,10 +28,18 @@
             "streamSettings": {
                 "network": "ws",
                 "wsSettings": {
-                    "path": "",
+                    "path": "/linkws",
                     "headers": {
-                        "Host": "2.V2ray.debian.org.fxp.debian.org.speedtest.net.zula.ir.%E3%82%89%E3%82%8F%E3%81%AA%E3%81%95%E3%82%89%E3%82%8F.mralpha-vpn.COM."
+                        "Host": "linde06.indiavideo.sbs"
                     }
+                },
+                "security": "tls",
+                "tlsSettings": {
+                    "allowInsecure": true,
+                    "serverName": "linde06.indiavideo.sbs",
+                    "alpn": [],
+                    "show": false,
+                    "fingerprint": ""
                 },
                 "sockopt": {
                     "dialerProxy": "fragment",
