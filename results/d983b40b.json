@@ -1,5 +1,5 @@
 {
-    "remarks": "08+🌥🇫🇷+@Surfboardv2ray",
+    "remarks": "232-%F0%9F%87%AB%F0%9F%87%B7%20France%20-%20NA%20%F0%9F%8C%8D%20VL-WS-TLS%204%E2%83%A3-Vmix%20x%20LcWd",
     "log": {
         "access": "",
         "error": "",
@@ -8,18 +8,20 @@
     "outbounds": [
         {
             "tag": "proxy",
-            "protocol": "vmess",
+            "protocol": "vless",
             "settings": {
                 "vnext": [
                     {
-                        "address": "crackthecode.ftp.sh",
+                        "address": "188.114.98.224",
                         "port": 443,
                         "users": [
                             {
-                                "id": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
+                                "id": "0fdd8743-50fe-4615-ba4d-be3bd6d98cb3",
                                 "alterId": 0,
                                 "email": "t@t.tt",
-                                "security": "auto"
+                                "security": "auto",
+                                "encryption": "none",
+                                "flow": ""
                             }
                         ]
                     }
@@ -28,18 +30,21 @@
             "streamSettings": {
                 "network": "ws",
                 "wsSettings": {
-                    "path": "/glweidf.sbs/linkws",
+                    "path": "",
                     "headers": {
-                        "Host": "vfarid.surfboardv2ray8830.WOrkErS.DEv"
+                        "Host": "vcp3.cushingreflex6.wORkeRS.deV"
                     }
                 },
                 "security": "tls",
                 "tlsSettings": {
                     "allowInsecure": true,
-                    "serverName": "vfarid.surfboardv2ray8830.WOrkErS.DEv",
-                    "alpn": [],
-                    "show": false,
-                    "fingerprint": "chrome"
+                    "serverName": "vcp3.cushingreflex6.wORkeRS.deV",
+                    "alpn": [
+                        "http/1.1",
+                        "h2",
+                        "h3"
+                    ],
+                    "show": false
                 },
                 "sockopt": {
                     "dialerProxy": "fragment",
