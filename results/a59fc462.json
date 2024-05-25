@@ -12,7 +12,7 @@
             "settings": {
                 "vnext": [
                     {
-                        "address": "188.114.98.224",
+                        "address": "peptides.crabdance.com",
                         "port": 443,
                         "users": [
                             {
