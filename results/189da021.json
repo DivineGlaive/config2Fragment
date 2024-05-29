@@ -1,5 +1,5 @@
 {
-    "remarks": "232-%F0%9F%87%AB%F0%9F%87%B7%20France%20-%20NA%20%F0%9F%8C%8D%20VL-WS-TLS%204%E2%83%A3-Vmix%20x%20LcWd",
+    "remarks": "10%2B%F0%9F%8C%A8%F0%9F%87%A8%F0%9F%87%A6%2B%40Surfboardv2ray",
     "log": {
         "access": "",
         "error": "",
@@ -12,11 +12,11 @@
             "settings": {
                 "vnext": [
                     {
-                        "address": "peptides.crabdance.com",
+                        "address": "crackthecode.ftp.sh",
                         "port": 443,
                         "users": [
                             {
-                                "id": "0fdd8743-50fe-4615-ba4d-be3bd6d98cb3",
+                                "id": "ce526092-81c1-42be-8354-88e58946c1f3",
                                 "alterId": 0,
                                 "email": "t@t.tt",
                                 "security": "auto",
@@ -32,13 +32,13 @@
                 "wsSettings": {
                     "path": "",
                     "headers": {
-                        "Host": "vcp3.cushingreflex6.wORkeRS.deV"
+                        "Host": "vcp3.retroperitoneum.WORkeRs.dEV"
                     }
                 },
                 "security": "tls",
                 "tlsSettings": {
                     "allowInsecure": true,
-                    "serverName": "vcp3.cushingreflex6.wORkeRS.deV",
+                    "serverName": "vcp3.retroperitoneum.WORkeRs.dEV",
                     "alpn": [
                         "http/1.1",
                         "h2",
