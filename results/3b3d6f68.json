@@ -1,5 +1,5 @@
 {
-    "remarks": "10%2B%F0%9F%8C%A8%F0%9F%87%A8%F0%9F%87%A6%2B%40Surfboardv2ray",
+    "remarks": "11+🌨🇺🇸+@Surfboardv2ray",
     "log": {
         "access": "",
         "error": "",
@@ -8,20 +8,18 @@
     "outbounds": [
         {
             "tag": "proxy",
-            "protocol": "vless",
+            "protocol": "vmess",
             "settings": {
                 "vnext": [
                     {
-                        "address": "crackthecode.ftp.sh",
+                        "address": "188.114.97.53",
                         "port": 443,
                         "users": [
                             {
-                                "id": "ce526092-81c1-42be-8354-88e58946c1f3",
+                                "id": "6c168fcc-2231-4f3b-8c1e-f6391692df4a",
                                 "alterId": 0,
                                 "email": "t@t.tt",
-                                "security": "auto",
-                                "encryption": "none",
-                                "flow": ""
+                                "security": "auto"
                             }
                         ]
                     }
@@ -30,21 +28,22 @@
             "streamSettings": {
                 "network": "ws",
                 "wsSettings": {
-                    "path": "",
+                    "path": "/hms02.fxiaomi.sbs:443/link",
                     "headers": {
-                        "Host": "vcp3.retroperitoneum.WORkeRs.dEV"
+                        "Host": "vcp3.epiploic.WOrKeRs.Dev"
                     }
                 },
                 "security": "tls",
                 "tlsSettings": {
                     "allowInsecure": true,
-                    "serverName": "vcp3.retroperitoneum.WORkeRs.dEV",
+                    "serverName": "vcp3.epiploic.WOrKeRs.Dev",
                     "alpn": [
                         "http/1.1",
                         "h2",
                         "h3"
                     ],
-                    "show": false
+                    "show": false,
+                    "fingerprint": "randomized"
                 },
                 "sockopt": {
                     "dialerProxy": "fragment",
